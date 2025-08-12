@@ -1,0 +1,24 @@
+[
+  {
+    "code": "УБПД.01",
+    "description": "Несанкционированный доступ к ПДн",
+    "category": "Аутентификация",
+    "level": "high",
+    "solution": "Внедрить двухфакторную аутентификацию",
+    "metrics": {
+      "weight": 0.7,
+      "detection_method": "audit"
+    }
+  },
+  {
+    "code": "УБПД.04",
+    "description": "Утечка через уязвимости ПО",
+    "category": "Защита данных",
+    "level": "critical",
+    "solution": "Обновить ПО и применить патчи",
+    "metrics": {
+      "weight": 1.0,
+      "detection_method": "scanning"
+    }
+  }
+]
